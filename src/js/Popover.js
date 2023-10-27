@@ -22,7 +22,7 @@ export default class Popover {
       const offsetHorizont = (this.popover.offsetWidth - this.btn.offsetWidth) / 2;
 
       this.popover.style.left = `${left - offsetHorizont}px`;
-      this.popover.style.bottom = `${top + this.popover.offsetHeight + 14}px`;
+      this.popover.style.top = `${top - this.popover.offsetHeight - 10}px`;
     }
   }
 
